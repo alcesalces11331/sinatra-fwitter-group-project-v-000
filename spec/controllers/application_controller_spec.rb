@@ -57,7 +57,7 @@ describe ApplicationController do
       expect(last_response.location).to include('/signup')
     end
 
-# When running this test on a local server the test passes. 
+# When running this test on a local server the test passes.
 #Method: Created a user with password and email and logged in. Attempted to redirect to /signup. Was rerouted every time to /tweets.
 #Not sure why it is coming up failing. \(w.w)/
 =begin
